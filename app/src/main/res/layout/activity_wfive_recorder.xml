@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".Activities.WfiveRecorderActivity">
+    <include layout="@layout/toolbar_youtube_recorder"
+        android:id="@+id/header"/>
+
+    <LinearLayout
+        android:id="@+id/wfive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        android:layout_below="@+id/header"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+
+            <WebView
+                android:id="@+id/webview"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:visibility="gone"
+
+                />
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="220dp"
+                android:layout_height="120dp"
+                android:background="@drawable/wfive"
+                android:visibility="visible"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_desc"/>
+            <ProgressBar
+                android:id="@+id/progressbar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+               />
+
+            <LinearLayout
+                android:id="@+id/lay_play_stop"
+                android:layout_width="200dp"
+                android:layout_height="@dimen/margin_40dp"
+                android:layout_gravity="center"
+                android:visibility="visible"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:background="@drawable/canvas_play_btn_bg"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/iv_play"
+                    android:layout_width="@dimen/margin_30dp"
+                    android:layout_height="@dimen/margin_20dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/play"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:id="@+id/tv_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/play_recordingg"
+                    android:layout_marginStart="@dimen/margin_5dp"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_large"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:paddingStart="@dimen/margin_10dp"
+            android:paddingEnd="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/timer_w"
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="00:00"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/audio_seek"
+                android:theme="@style/MySeekBar"
+                android:layout_width="match_parent"
+                android:visibility="gone"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:paddingStart="@dimen/margin_10dp"
+            android:paddingEnd="@dimen/margin_10dp"
+            android:orientation="horizontal">
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="60dp"
+                android:layout_height="wrap_content"
+                android:text="@string/volume_txt"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <androidx.appcompat.widget.AppCompatSeekBar
+                android:id="@+id/volume_seek"
+                android:theme="@style/MySeekBar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:progress="80"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_5dp"
+            android:orientation="vertical">
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/tv_song_name_w"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:singleLine="true"
+                android:ellipsize="end"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <com.usingstudioo.View.NLTextView
+                android:id="@+id/tv_song_type_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_ideal"/>
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/tv_song_key_w"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_ideal"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="@dimen/margin_5dp"
+            android:orientation="vertical">
+            <com.usingstudioo.View.NBButton
+                android:id="@+id/btn_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/record"
+                android:layout_gravity="center"
+                android:elevation="@dimen/margin_start_vary_5"
+                android:background="@drawable/circularr"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_regular"/>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_record"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                app:cardBackgroundColor="@color/light_grey"
+                app:cardCornerRadius="@dimen/margin_35dp"
+                android:visibility="gone"
+                android:layout_margin="@dimen/margin_10dp"
+                android:layout_gravity="center"
+                android:elevation="@dimen/margin_5dp">
+
+
+                <ImageView
+                    android:id="@+id/btn_recordd"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/play"
+                    android:scaleType="fitCenter"
+                    android:visibility="gone"
+                    android:layout_gravity="center"
+                    android:background="@android:color/transparent"
+                    android:contentDescription="@string/app_desc"/>
+
+            </androidx.cardview.widget.CardView>
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/timer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:textSize="@dimen/text_size_xxlarge"
+                android:text="@string/clock_hint"
+                android:layout_gravity="center"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

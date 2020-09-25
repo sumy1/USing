@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_45dp"
+    android:background="@android:color/black"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:id="@+id/row_view"
+        android:layout_toStartOf="@+id/iv_check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/iv_image_type"
+            android:layout_width="@dimen/margin_25dp"
+            android:layout_height="@dimen/margin_25dp"
+            android:layout_marginStart="@dimen/margin_5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/artist"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/app_desc"/>
+
+        <com.usingstudioo.View.NLTextView
+            android:id="@+id/tv_song"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:layout_marginStart="@dimen/margin_5dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:text="@string/sing_music_library"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_large"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_check"
+        android:layout_width="@dimen/margin_30dp"
+        android:layout_height="@dimen/margin_30dp"
+        android:layout_marginEnd="@dimen/margin_5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/canvas_empty_check_view"
+        android:contentDescription="@string/app_desc"/>
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:background="@color/theme_transparent"
+        android:layout_alignParentBottom="true"/>
+</RelativeLayout>

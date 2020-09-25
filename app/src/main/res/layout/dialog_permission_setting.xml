@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:id="@+id/item"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/canvas_round_corner_white"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.AppCompatImageButton
+            android:id="@+id/btn_close"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@null"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_close"
+            android:tint="@color/theme_color"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_25dp"
+            android:layout_marginBottom="@dimen/margin_25dp"
+            android:orientation="vertical">
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/tv_dialog"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_marginStart="@dimen/margin_35dp"
+                android:layout_marginEnd="@dimen/margin_35dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/forgot_password_desc"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/text_size_regular"/>
+
+            <com.usingstudioo.View.NBButton
+                android:id="@+id/btn_dialog"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/btn_height"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_marginStart="@dimen/margin_25dp"
+                android:layout_marginEnd="@dimen/margin_25dp"
+                android:background="@drawable/canvas_login_btn_bg"
+                android:text="@string/continue_txt"
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_size_regular"/>
+
+
+
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

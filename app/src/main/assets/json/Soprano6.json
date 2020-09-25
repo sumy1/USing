@@ -1,0 +1,537 @@
+{
+    "tempo": "80",
+    "ppqn": "480",
+    "notes": [
+        {
+            "start_time": 0,
+            "note_name": " C5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 2252,
+            "note_name": "C5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 2991,
+            "note_name": "C5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3272,
+            "note_name": "C5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3741,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5197,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5242,
+            "note_name": "B5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5617,
+            "note_name": "B5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5617,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5992,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5992,
+            "note_name": "B5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6367,
+            "note_name": "B5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6367,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6742,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6742,
+            "note_name": "B5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7117,
+            "note_name": "B5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7117,
+            "note_name": "A5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7492,
+            "note_name": "A5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7492,
+            "note_name": "G5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7869,
+            "note_name": "G5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7869,
+            "note_name": "F5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8244,
+            "note_name": "F5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8244,
+            "note_name": "E5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8619,
+            "note_name": "E5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8619,
+            "note_name": "D5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8994,
+            "note_name": "D5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8994,
+            "note_name": "C5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 9744,
+            "note_name": "C5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 10494,
+            "note_name": "C#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 10777,
+            "note_name": "C#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 11246,
+            "note_name": "C#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 12702,
+            "note_name": "C#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 12747,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 13122,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 13122,
+            "note_name": "C#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 13499,
+            "note_name": "C#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 13499,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 13874,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 13874,
+            "note_name": "C#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 14249,
+            "note_name": "C#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 14249,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 14626,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 14626,
+            "note_name": "A#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15001,
+            "note_name": "A#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15001,
+            "note_name": "G#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15376,
+            "note_name": "G#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15376,
+            "note_name": "F#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15751,
+            "note_name": "F#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15751,
+            "note_name": "F5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 16126,
+            "note_name": "F5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 16126,
+            "note_name": "D#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 16501,
+            "note_name": "D#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 16501,
+            "note_name": "C#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 17251,
+            "note_name": "C#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 18001,
+            "note_name": "D5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 18284,
+            "note_name": "D5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 18753,
+            "note_name": "D6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 20208,
+            "note_name": "D6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 20252,
+            "note_name": "C#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 20629,
+            "note_name": "C#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 20629,
+            "note_name": "D6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 21004,
+            "note_name": "D6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 21004,
+            "note_name": "C#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 21377,
+            "note_name": "C#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 21377,
+            "note_name": "D6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 21752,
+            "note_name": "D6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 21752,
+            "note_name": "C#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 22129,
+            "note_name": "C#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 22129,
+            "note_name": "B5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 22504,
+            "note_name": "B5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 22504,
+            "note_name": "A5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 22877,
+            "note_name": "A5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 22877,
+            "note_name": "G5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 23252,
+            "note_name": "G5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 23252,
+            "note_name": "F#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 23627,
+            "note_name": "F#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 23627,
+            "note_name": "E5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 24002,
+            "note_name": "E5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 24002,
+            "note_name": "D5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 24752,
+            "note_name": "D5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 25502,
+            "note_name": "D#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 25783,
+            "note_name": "D#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 26252,
+            "note_name": "D#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 27707,
+            "note_name": "D#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 27752,
+            "note_name": "D6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 28127,
+            "note_name": "D6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 28127,
+            "note_name": "D#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 28502,
+            "note_name": "D#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 28502,
+            "note_name": "D6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 28877,
+            "note_name": "D6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 28877,
+            "note_name": "D#6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 29252,
+            "note_name": "D#6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 29252,
+            "note_name": "D6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 29627,
+            "note_name": "D6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 29627,
+            "note_name": "C6",
+            "note_status": "y"
+        },
+        {
+            "start_time": 30002,
+            "note_name": "C6",
+            "note_status": "n"
+        },
+        {
+            "start_time": 30002,
+            "note_name": "A#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 30377,
+            "note_name": "A#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 30377,
+            "note_name": "G#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 30752,
+            "note_name": "G#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 30752,
+            "note_name": "G5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 31129,
+            "note_name": "G5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 31129,
+            "note_name": "F5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 31504,
+            "note_name": "F5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 31504,
+            "note_name": "D#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 32254,
+            "note_name": "D#5",
+            "note_status": "n"
+        }
+    ],
+    "status": "1"
+}

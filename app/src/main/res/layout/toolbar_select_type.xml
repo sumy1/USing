@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="@dimen/margin_45dp"
+    android:background="@color/black">
+
+    <com.usingstudioo.View.NBButton
+        android:id="@+id/bt_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:background="@null"
+        android:text="@string/cancel_txt"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/text_size_large"
+        android:textAllCaps="false"/>
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="100dp"
+        android:layout_height="@dimen/margin_35dp"
+        android:src="@drawable/logo"
+        android:contentDescription="@string/app_desc"
+        android:layout_centerInParent="true"/>
+
+    <com.usingstudioo.View.NBButton
+        android:id="@+id/bt_done"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:text="@string/done_txt"
+        android:textColor="@color/theme_color"
+        android:textSize="@dimen/text_size_large"
+        android:textAllCaps="false"/>
+
+</RelativeLayout>

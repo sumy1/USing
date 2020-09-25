@@ -1,0 +1,157 @@
+{
+    "tempo": "80",
+    "ppqn": "480",
+    "notes": [
+        {
+            "start_time": 0,
+            "note_name": " G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 2250,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3000,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "A4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5063,
+            "note_name": "A4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5251,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6001,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6001,
+            "note_name": "B4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7501,
+            "note_name": "B4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7501,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8251,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8251,
+            "note_name": "C5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 9751,
+            "note_name": "C5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 9751,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 10501,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 10501,
+            "note_name": "D5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 12001,
+            "note_name": "D5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 12001,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 12751,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 12751,
+            "note_name": "E5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 14251,
+            "note_name": "E5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 14251,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15001,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15001,
+            "note_name": "F#5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 16501,
+            "note_name": "F#5",
+            "note_status": "n"
+        },
+        {
+            "start_time": 16501,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 17251,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 17251,
+            "note_name": "G5",
+            "note_status": "y"
+        },
+        {
+            "start_time": 18751,
+            "note_name": "G5",
+            "note_status": "n"
+        }
+    ],
+    "status": "1"
+}

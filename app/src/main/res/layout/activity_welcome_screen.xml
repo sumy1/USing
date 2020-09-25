@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <include layout="@layout/toolbar_logo_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_25dp"
+        android:layout_marginEnd="@dimen/margin_25dp"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.usingstudioo.View.NBTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/welcome_desc"
+            android:textColor="@color/theme_color"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:textSize="@dimen/text_size_xxxlarge"/>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_studio"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45dp"
+            app:cardCornerRadius="@dimen/margin_20dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="@dimen/margin_35dp"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:src="@drawable/mike"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="@string/welcome_sing_studio"
+                    android:textSize="@dimen/text_size_regular"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+        <com.usingstudioo.View.NBTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:text="@string/or_txt"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_regular"/>
+
+        <!--<androidx.cardview.widget.CardView
+            android:id="@+id/card_sing_music"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45dp"
+            app:cardCornerRadius="@dimen/margin_20dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="@dimen/margin_35dp"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:src="@drawable/piano"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudio.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="@string/welcome_sing_music"
+                    android:textSize="@dimen/text_size_regular"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_sing_music"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45dp"
+            app:cardCornerRadius="@dimen/margin_20dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="@dimen/margin_35dp"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:src="@drawable/piano"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="@string/welcome_sing_music"
+                    android:textSize="@dimen/text_size_regular"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+        <com.usingstudioo.View.NBTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginBottom="@dimen/margin_10dp"
+            android:text="@string/or_txt"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_regular"/>
+
+        <!--<androidx.cardview.widget.CardView
+            android:id="@+id/card_vocal_booth"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45dp"
+            app:cardCornerRadius="@dimen/margin_20dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="@dimen/margin_35dp"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:src="@drawable/vocal_icon"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudio.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="@string/welcome_vocal_booth"
+                    android:textSize="@dimen/text_size_regular"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>-->
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_vocal_booth"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_45dp"
+            app:cardCornerRadius="@dimen/margin_20dp"
+            app:cardBackgroundColor="@color/white">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="@dimen/margin_35dp"
+                    android:layout_marginStart="@dimen/margin_8dp"
+                    android:src="@drawable/vocal_icon"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_10dp"
+                    android:textColor="@color/black_semi_transparent"
+                    android:text="@string/welcome_vocal_booth"
+                    android:textSize="@dimen/text_size_regular"
+                    android:textAllCaps="false"/>
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <include layout="@layout/toolbar_list_view"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/margin_40dp"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginEnd="@dimen/margin_15dp"
+            app:cardBackgroundColor="@color/white">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <com.usingstudioo.View.NBEditText
+                    android:id="@+id/et_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@android:color/transparent"
+                    android:singleLine="true"
+                    android:imeOptions="actionDone"
+                    android:hint="@string/search"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_size_regular"
+                    android:paddingStart="@dimen/margin_8dp"
+                    android:paddingEnd="@dimen/margin_40dp"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_35dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="@dimen/margin_3dp"
+                    android:background="@null"
+                    android:src="@drawable/search"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/app_desc"
+                    android:layout_alignParentEnd="true"/>
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_marginStart="@dimen/margin_15dp"
+            android:layout_marginEnd="@dimen/margin_15dp">
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/transparent"
+                android:layout_toStartOf="@+id/filter_layout"
+                android:text="@string/sing_music_libraryy"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_xxlarge"/>
+
+            <LinearLayout
+                android:id="@+id/filter_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="horizontal">
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@android:color/transparent"
+                    android:text="@string/filter"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_xxlarge"/>
+
+                <ImageView
+                    android:layout_width="@dimen/margin_30dp"
+                    android:layout_height="match_parent"
+                    android:background="@null"
+                    android:src="@drawable/filter"
+                    android:scaleType="fitCenter"
+                    android:contentDescription="@string/app_desc"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_list"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clipToPadding="false"
+                android:overScrollMode="never"/>
+
+            <LinearLayout
+                android:id="@+id/empty_view"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <ImageView
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/empty_songs"
+                    android:contentDescription="@string/app_desc"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:layout_marginStart="@dimen/margin_start_vary_10"
+                    android:layout_marginEnd="@dimen/margin_start_vary_10"
+                    android:gravity="center"
+                    android:text="No Sing2Music Songs"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size_small"/>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

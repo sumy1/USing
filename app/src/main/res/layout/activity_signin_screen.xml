@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15dp">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:cardCornerRadius="100dp"
+                app:cardBackgroundColor="@android:color/transparent"
+                android:layout_centerInParent="true">
+
+                <com.skyfishjy.library.RippleBackground
+                    android:id="@+id/ripple"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:rb_color="@color/theme_transparent"
+                    app:rb_radius="20dp"
+                    app:rb_rippleAmount="10"
+                    app:rb_duration="10000"
+                    app:rb_scale="6"
+                    android:gravity="center"
+                    android:visibility="gone">
+                </com.skyfishjy.library.RippleBackground>
+            </androidx.cardview.widget.CardView>
+
+
+
+            <!--<com.usingstudio.Utils.RippleView
+                android:id="@+id/ripple_view"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:rv_color="@color/theme_color"
+                app:rv_radius="20dp"
+                app:rv_scale="4"
+                app:rv_duration="10000"
+                app:rv_strokeWidth="0.7dp"
+                app:rv_type="fill_and_stroke"
+                android:visibility="gone"
+                android:layout_centerInParent="true"/>-->
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="120dp"
+                android:layout_height="150dp"
+                android:src="@drawable/logo"
+                android:background="@android:color/transparent"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"/>
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="150dp"
+                android:src="@drawable/chord_wave"
+                android:background="@android:color/transparent"
+                android:layout_marginTop="20dp"
+                android:layout_centerHorizontal="true"
+                android:contentDescription="@string/app_name"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_15dp"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:orientation="vertical">
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textAllCaps="true"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_large"/>
+
+            <com.usingstudioo.View.NBEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:hint="@string/email_tag"
+                android:paddingStart="0dp"
+                android:inputType="textEmailAddress"
+                android:paddingEnd="@dimen/margin_5dp"
+                android:background="@android:color/transparent"
+                android:textColorHint="@color/dim_grey"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:background="@color/theme_color"/>
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:textAllCaps="true"
+                android:text="@string/password"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_large"/>
+
+            <com.usingstudioo.View.NBEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:hint="@string/password_tag"
+                android:paddingStart="0dp"
+                android:paddingEnd="@dimen/margin_5dp"
+                android:background="@android:color/transparent"
+                android:inputType="textPassword"
+                android:textColorHint="@color/dim_grey"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.7dp"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                android:background="@color/theme_color"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_25dp"
+            android:layout_marginEnd="@dimen/margin_25dp"
+            android:layout_marginBottom="@dimen/margin_20dp"
+            android:orientation="vertical">
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/tv_forgot_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:text="@string/forgot_pass"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_regular"/>
+
+            <com.usingstudioo.View.NBButton
+                android:id="@+id/btn_sign_in"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:background="@drawable/canvas_login_btn_bg"
+                android:text="@string/log_in"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textAllCaps="false"/>
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_marginBottom="@dimen/margin_10dp"
+                android:text="@string/or_txt"
+                android:textColor="@color/white"
+                android:textAllCaps="false"
+                android:textSize="@dimen/text_size_regular"/>
+
+            <com.usingstudioo.View.NBButton
+                android:id="@+id/btn_sign_up"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40dp"
+                android:background="@drawable/canvas_signup_btn_bg"
+                android:text="@string/new_user"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textAllCaps="false"/>
+
+            <com.usingstudioo.View.NLTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="end"
+                android:layout_marginTop="@dimen/margin_5dp"
+                android:text="@string/become_member"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_regular"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

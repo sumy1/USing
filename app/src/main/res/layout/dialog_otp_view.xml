@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="@dimen/margin_start_vary_10"
+    android:gravity="center"
+    android:id="@+id/item"
+    android:layout_gravity="center"
+    android:background="@android:color/transparent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/canvas_round_corner_black"
+        android:padding="@dimen/margin_start_vary_10"
+        android:orientation="vertical">
+
+        <com.usingstudioo.View.NBTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_10dp"
+            android:layout_gravity="center"
+            android:text="@string/otp"
+            android:textColor="@color/theme_color"
+            android:textSize="@dimen/text_size_xxlarge"
+            android:textAllCaps="false"/>
+
+        <com.usingstudioo.View.NBTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_start_vary_10"
+            android:gravity="center"
+            android:text="@string/sent_verification"
+            android:layout_marginStart="@dimen/margin_start_vary_20"
+            android:layout_marginEnd="@dimen/margin_start_vary_20"
+            android:textColor="@color/half_black"
+            android:textSize="@dimen/text_size_small"/>
+
+        <com.mukesh.OtpView
+            android:id="@+id/otp_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:inputType="number"
+            android:itemBackground="@color/white"
+            android:textColor="@color/theme_color"
+            app:itemHeight="@dimen/margin_45dp"
+            app:itemWidth="55dp"
+            app:itemRadius="@dimen/margin_20dp"
+            app:cursorColor="@color/theme_color"
+            app:itemCount="4"
+            app:viewType="rectangle"
+            android:padding="@dimen/margin_start_vary_10"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_3dp"
+            android:layout_marginEnd="@dimen/margin_30dp"
+            android:layout_marginBottom="@dimen/margin_start_vary_10"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            android:gravity="end">
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/expire_otp"
+                android:textColor="@color/grey"
+                android:textSize="@dimen/text_size_micro"/>
+
+            <com.usingstudioo.View.NBTextView
+                android:id="@+id/tv_otp_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/timer_txt"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_micro"/>
+
+        </LinearLayout>
+        <com.usingstudioo.View.NBButton
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_40dp"
+            android:layout_marginTop="@dimen/margin_start_vary_10"
+            android:layout_marginBottom="@dimen/margin_start_vary_5"
+            android:background="@drawable/canvas_login_btn_bg"
+            android:layout_gravity="center"
+            android:text="@string/click_continue"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_large"
+            android:paddingStart="@dimen/margin_start_vary_20"
+            android:paddingEnd="@dimen/margin_start_vary_20"
+            android:gravity="center"/>
+        <com.usingstudioo.View.NBButton
+            android:id="@+id/btn_resend"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/margin_25dp"
+            android:background="@null"
+            android:layout_gravity="center"
+            android:text="@string/resend"
+            android:textColor="@color/theme_color"
+            android:textAllCaps="false"
+            android:textSize="@dimen/text_size_large"/>
+    </LinearLayout>
+</RelativeLayout>

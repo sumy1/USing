@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <include layout="@layout/toolbar_signup_screen"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="@dimen/margin_20dp"
+                android:layout_marginBottom="@dimen/margin_20dp"
+                android:src="@drawable/user"
+                android:tint="@color/theme_color"
+                android:contentDescription="@string/app_desc"
+                android:layout_gravity="center"/>
+
+            <com.usingstudioo.View.NBTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/new_user"
+                android:textColor="@color/theme_color"
+                android:textSize="@dimen/text_size_xxlarge"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_25dp"
+                android:layout_marginEnd="@dimen/margin_25dp"
+                android:orientation="vertical">
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_15dp"
+                    android:textAllCaps="true"
+                    android:text="@string/username"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/text_size_large"/>
+
+                <com.usingstudioo.View.NBEditText
+                    android:id="@+id/et_username"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:hint="@string/username_tag"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="@dimen/margin_5dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:background="@android:color/transparent"
+                    android:textColorHint="@color/dim_grey"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:background="@color/theme_color"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_15dp"
+                    android:text="@string/email"
+                    android:textAllCaps="true"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/text_size_large"/>
+
+                <com.usingstudioo.View.NBEditText
+                    android:id="@+id/et_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:hint="@string/email_tag"
+                    android:paddingStart="0dp"
+                    android:paddingEnd="@dimen/margin_5dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:background="@android:color/transparent"
+                    android:textColorHint="@color/dim_grey"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:background="@color/theme_color"/>
+
+                <com.usingstudioo.View.NBTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_15dp"
+                    android:textAllCaps="true"
+                    android:text="@string/create_password"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/text_size_large"/>
+
+                <com.usingstudioo.View.NBEditText
+                    android:id="@+id/et_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:hint="@string/password_create_tag"
+                    android:inputType="textPassword"
+                    android:paddingStart="0dp"
+                    android:singleLine="true"
+                    android:ellipsize="end"
+                    android:paddingEnd="@dimen/margin_5dp"
+                    android:background="@android:color/transparent"
+                    android:textColorHint="@color/dim_grey"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_normal"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="0.7dp"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:layout_marginBottom="@dimen/margin_5dp"
+                    android:background="@color/theme_color"/>
+
+                <com.usingstudioo.View.NBCheckBox
+                    android:id="@+id/ch_check"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5dp"
+                    android:button="@drawable/canvas_checkbox_selector"
+                    android:text="@string/sign_up_msg"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/text_size_ideal"/>
+
+            </LinearLayout>
+
+            <com.usingstudioo.View.NBButton
+                android:id="@+id/btn_sign_up"
+                style="@style/Widget.AppCompat.Button"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margin_40dp"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:layout_marginStart="@dimen/margin_25dp"
+                android:layout_marginEnd="@dimen/margin_25dp"
+                android:background="@drawable/canvas_login_btn_bg"
+                android:text="@string/sign_up"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textAllCaps="false"/>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+
+
+
+</LinearLayout>

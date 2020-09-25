@@ -1,0 +1,137 @@
+{
+    "tempo": "80",
+    "ppqn": "480",
+    "notes": [
+        {
+            "start_time": 0,
+            "note_name": " C3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 750,
+            "note_name": "C3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 750,
+            "note_name": "C#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 1500,
+            "note_name": "C#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 1500,
+            "note_name": "D3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 2250,
+            "note_name": "D3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 2250,
+            "note_name": "D#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3000,
+            "note_name": "D#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3000,
+            "note_name": "E3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "E3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "F3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 4500,
+            "note_name": "F3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 4500,
+            "note_name": "F#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5250,
+            "note_name": "F#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5250,
+            "note_name": "G3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6000,
+            "note_name": "G3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6000,
+            "note_name": "G#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6750,
+            "note_name": "G#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6750,
+            "note_name": "A3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7500,
+            "note_name": "A3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7500,
+            "note_name": "A#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8250,
+            "note_name": "A#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8250,
+            "note_name": "B3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 9000,
+            "note_name": "B3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 9000,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 11250,
+            "note_name": "C4",
+            "note_status": "n"
+        }
+    ],
+    "status": "1"
+}

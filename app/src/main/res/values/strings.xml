@@ -1,0 +1,279 @@
+<resources>
+    <string name="app_name">U Sing! Studio</string>
+    <string name="app_desc">sing application</string>
+    <string name="loading">Loading</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="email_tag">Enter email</string>
+    <string name="password">Password</string>
+    <string name="password_tag">Enter password</string>
+    <string name="forgot_pass">Forgot Password ?</string>
+    <string name="new_user">New User Sign Up</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Login</string>
+    <string name="username">User Name</string>
+    <string name="username_tag">Enter Username</string>
+    <string name="create_password">Create Password</string>
+    <string name="password_create_tag">Create your password</string>
+    <string name="become_member">Don\'t have an account? Create one</string>
+
+    <string name="sign_up_msg">I agree to the </string>
+    <string name="terms_n_condition">Terms and Conditions</string>
+    <string name="send">Send</string>
+    <string name="submit">Submit</string>
+    <string name="successful">Successful</string>
+    <string name="done_txt">Done</string>
+    <string name="continue_txt">Continue</string>
+    <string name="or_txt">or</string>
+    <string name="ok_txt">OK</string>
+    <string name="cancel_txt">Cancel</string>
+    <string name="close_txt">Close</string>
+    <string name="volume_txt">Volume</string>
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="agree_toast">Please agree to the terms and conditions</string>
+
+    <string name="email_id_msg">Please enter email Id</string>
+    <string name="email_id_invalid">Please enter valid email Id</string>
+    <string name="error_msg">Error</string>
+
+    //Error Validations
+    <string name="user_error">Username cannot be empty</string>
+    <string name="name_error">Name cannot be empty</string>
+    <string name="email_error">Email Id cannot be empty</string>
+    <string name="phone_error">Phone number cannot be empty</string>
+    <string name="pass_error">Password cannot be empty</string>
+    <string name="msg_error">Message cannot be empty</string>
+    <string name="error_invalid_email">Invalid input for Email Id</string>
+    <string name="error_invalid_phone">Invalid input for Phone Number</string>
+    <string name="error_invalid_password">Password is too short</string>
+    <string name="error_invalid_credential">Invalid input for Name</string>
+    <string name="error_cannot_be_empty">Field can not be empty</string>
+
+    //welcome screen
+    <string name="welcome_desc">What would you like to do?</string>
+    <string name="welcome_sing_studio">Go to U Sing! Studio</string>
+    <string name="welcome_sing_music">Sing2Music &amp; W501 Music Library</string>
+    <string name="welcome_vocal_booth">Go to U Sing! Studio\'s Vocal Booth</string>
+
+    //common fragment
+    <string name="time">1 Hour ago</string>
+    <string name="date">21 Oct 19</string>
+    <string name="address_hint">Address</string>
+    <string name="address">E 22, E Block, Sector 8\nNoida, UP(201321) </string>
+
+    //edit profile
+    <string name="name">Name</string>
+    <string name="name_hint">Kapil Rao</string>
+    <string name="email_hint">demo2468@gmail.com</string>
+    <string name="phone_number">9992344568</string>
+    <string name="password_hint">*******</string>
+    <string name="change_pass">Change Password</string>
+    <string name="save">Save</string>
+
+    <string name="old_pass_msg">Please enter old password</string>
+    <string name="old_pass_invalid">Old Password is invalid</string>
+    <string name="new_pass_msg">Please enter at least 6 character new password</string>
+    <string name="renew_pass_msg">Please re-enter your new password</string>
+    <string name="renew_pass_invalid">Field must match with new password</string>
+    <string name="pass_success">Password has been changed successfully. Kindly Login Again</string>
+    <string name="profile_success">Profile has been updated successfully</string>
+
+    //search page
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+    <string name="sing_music_library">Sing2Music Library</string>
+    <string name="sing_music_libraryy">Music Library</string>
+    <string name="all">All</string>
+    <string name="piano">Piano</string>
+    <string name="guitar">Guitar</string>
+    <string name="total_result">About 40 results.</string>
+
+
+    //New Changes..
+    <string name="pianoo">Sing2Piano</string>
+    <string name="guitarr">Sing2Guitar</string>
+    <string name="wlibrary">W501</string>
+
+
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="goto_menu">Go to Main Menu</string>
+    <string name="recording_list">Recording List</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+
+    <string name="article">(by Gavin Fernando, News Corp. Australia) – October 1 marks a crucial event for China — the 70th anniversary of the Communist takeover.
+        Beijing has planned one of the most grand and tightly choreographed military parades in its history, all part of President Xi Jinping’s desire to showcase China as an almighty global superpower of the 21st century.  The aim is to project an image of military might and political power to the rest of the world.
+        But to the country’s south, millions-strong protests in Hong Kong — sparked by a controversial extradition law — have morphed into a 17-week demonstration against the very image China is trying to project.
+        In he lead-up to the 70th anniversary of Communist rule in China, fierce clashes broke out between protesters and riot police in Hong Kong this weekend. … [Note that a majority of protesters are young people who do not want to be ruled by a totalitarian state.]
+        Sunday marked some of the most intense clashes in weeks as police used tear gas, rubber bullets and water cannons at multiple locations for hours during running battles with protesters hurling rocks and petrol bombs. … Police…were seen making multiple arrests throughout the day.
+        The demonstrations against the Communist Chinese government are no longer confined to Hong Kong.
+        Over the weekend, global rallies were staged across the world, including Australia, the US and parts of Europe, in solidarity with Hong Kong against the Communist  government of China. The global “anti-totalitarianism” rallies extended to over 60 cities worldwide including Taipei, Tokyo and Kuala Lumpur, representing growing outrage towards the Chinese government. …
+    </string>
+
+    //Otp screen
+    <string name="otp">Enter OTP</string>
+    <string name="sent_verification">We have sent an OTP to your Email Id</string>
+    <string name="click_continue">Click to continue</string>
+    <string name="resend">Resend code</string>
+    <string name="expire_otp">Your code will expire in</string>
+    <string name="timer_txt">2:00</string>
+    <string name="congrats">Congratulations</string>
+    <string name="success_register">Your account has been created successfully.</string>
+    <string name="success_password">Your password has been changed successfully.</string>
+    <string name="happysinging">Happy Singing !</string>
+    <string name="success_passwordd">Your profile has been changed.</string>
+
+    <string name="code_msg">Please enter verification code</string>
+    <string name="code_invalid">Verification code not correct</string>
+    <string name="code_expired">Verification code has been expired</string>
+
+    //Change password
+    <string name="old_password">Current Password</string>
+    <string name="old_pass_tag">Enter your current password</string>
+    <string name="new_password">New Password</string>
+    <string name="new_pass_tag">Enter your new password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="confirm_pass_tag">Enter again new password</string>
+    <string name="confirm_pass_tagg">Enter new password again</string>
+    <string name="re_enter_password">Re-Enter new password</string>
+    <string name="re_enter_tag">Re-Enter your new password</string>
+    <string name="reset_password">Submit</string>
+
+    //Forgot Password Dialog
+    <string name="forgot_password">Forgot your Password?</string>
+    <string name="registered_email_id">Registered Email Id</string>
+    <string name="forgot_password_msg">Password reset link has been sent to your registered email Id</string>
+    <string name="forgot_password_desc">Enter your registered email address and we’ll send you a link to reset your password</string>
+    <string name="reset_pass_desc">Reset your Account Password!</string>
+    <string name="proceed_login">Proceed to Login</string>
+    <string name="proceed_register">Proceed</string>
+
+    <string-array name="menu_array">
+        <item>Edit Profile</item>
+        <item>My Subscription</item>
+        <item>Go to Main Menu</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string-array name="menu_record_array">
+        <item>Edit Profile</item>
+        <item>My Subscription</item>
+        <item>Go to Main Menu</item>
+        <item>Recording List</item>
+        <item>Change Password</item>
+        <item>Logout</item>
+    </string-array>
+
+    <string name="permissionTag">Please Grant Permissions to reccord audio</string>
+    <string name="enable_text">ENABLE</string>
+    <string name="permissionMsg">You have denied the access permission permanently, allow the permission from setting.</string>
+
+    <string name="record_msg">To record your voice, play the video first and then press \'Record\'</string>
+    <string name="record_msgg">To record your voice, play the audio first and then press \'Record\'</string>
+    <string name="important_instruction">Important Instruction</string>
+    <string name="important_instructionn">Important Instructions</string>
+    <string name="instruction">Keep your surroundings noise free &amp; Do not use Earphone/Headphone while recording</string>
+
+    <string name="playback_error">Record Error</string>
+    <string name="playback_msg">Song is being cued for recording.\n Please wait&#8230;</string>
+
+    <string name="recording_done_msg">Your recording is complete and saved in the \'Recording List\'</string>
+    <string name="delete_check_msg">Are you sure you want to delete this file?</string>
+    <string name="play_recording">Play Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+
+    <string name="play_recordingg">Play</string>
+    <string name="stop_recordingg">Stop</string>
+
+
+    <string name="warm_up_txt">Warm up your voice anytime anywhere with</string>
+    <string name="using_text">U Sing! Studio</string>
+
+    <string name="info1">Select Desired Scale and Range</string>
+    <string name="info2">Adjust Tempo</string>
+    <string name="info3">Sing Your Best</string>
+    <string name="get_started">Get Started</string>
+
+    <string name="help_txt">Help</string>
+    <string name="contact_support">Contact Support</string>
+    <string name="help_support">U Sing! Studio\n\n
+1. Before beginning your practice; select your range (Bass, Baritone, Tenor, Alto, Mezzo-Soprano, Soprano).\n\n
+2. Select desired scale.\n\n
+3. Adjust the playback volume accordingly to your needs.\n\n
+4. Use either the built-in speakers on your device or headphones to practice along with the scales.\n\n
+5. Select the menu button to switch between scale and range.\n\n
+6. Go to main menu to explore W501 Music, Sing2Music Library &amp; Vocal Booth Functions\n
+</string>
+
+    <string name="speed">Speed</string>
+    <string name="slow">Slow</string>
+    <string name="fast">Fast</string>
+    <string name="clock_hint">00:00</string>
+
+    <string-array name="range_list">
+        <item>Bass</item>
+        <item>Baritone</item>
+        <item>Tenor</item>
+        <item>Alto</item>
+        <item>Mezzo-Soprano</item>
+        <item>Soprano</item>
+    </string-array>
+
+    <string-array name="scale_list">
+        <item>Chromatic Scale</item>
+        <item>5 Tone Scale</item>
+        <item>Arpeggios</item>
+        <item>Sustained Exercise Beats (4 Beats)</item>
+        <item>Sustained Exercise Beats (8 Beats)</item>
+        <item>Octave Jumps</item>
+        <item>Disney Scale</item>
+        <item>Harmony Interval Scale</item>
+        <item>Triplet Scale</item>
+        <item>Runs &amp; Riffs Progressions</item>
+    </string-array>
+
+    <string name="tnc">
+        These Terms of Use (the “Terms” or “Agreement”) govern your use of the software platform “U Sing! Studio” (“Application”) that was created by AT Success Marketing.(“Company”).
+        Provided you agree to, and comply with, these Terms, Company grants you a license to use the Application on a computer or mobile device for the purpose of accessing music and related
+        historical and musicological information, including biographies of composers.  If you do not agree with or are not willing to comply with any portion of these Terms, do not download
+        or use the Application.
+        \n\n<b>Acceptance of Terms :</b>\n
+        The terms and conditions outlined in these Terms govern all matters related to your installation and use of the Application and supersede all other agreements, representations,
+        warranties and understandings with respect to the Application.  By entering into these Terms electronically, you agree that these Terms have the same force and effect as an
+        agreement made in writing and that Company may provide you with any notices and terms about the Application electronically by posting such notice on the Site.
+        \n\n<b>Update and Modification of the Terms :</b>\n
+        You agree that Company is not obligated to create or provide any support, corrections, updates, upgrades, bug fixes and/or enhancements of the Application (each an “Update”).
+        However, in the event Company decides to offer an Update, you agree that Company may amend these Terms in connection with such Update without specific notice to you and that
+        your installation and use of the Update is conditioned upon your acceptance of any revised Terms.  The current version of these Terms will be posted at www.usingstudio.com (the “Site”)
+        and you are responsible for reviewing the version of the Terms available at the Site before installing an Update.  By installing an Update, you are representing that you have reviewed
+        the then-current version of the Terms at the Site and agree to be bound by such version.  You may not install any Update unless you agree to the then-current version of the Terms.
+        \n\n<b>Ownership Rights and License :</b>\n
+        As between you and Company, the Application, and all content (except for Third Party Content as described below) contained within the Application, is and shall remain the sole property
+        of Company and is subject to protection under U.S. and foreign copyright laws.  All third-party information (such as, audio files, music files or other sounds) that you may have access
+        to by using the Application (“Third-Party Content”) may be protected by intellectual property rights that are owned by the individual or entity from which such Third Party Content originated.
+        Company reserves the right (but has no obligation) to filter or refuse to transmit any Third-Party Content via the Application.  You agree that your use of the Application to communicate
+        with any third parties is at your own risk.\n
+        Company grants you a personal, revocable, limited, non-transferable license to use the Application on either a personal computer, (b) any iPhone or iPad Touch as permitted by the Usage Rules
+        set forth in the App Store Terms and Conditions, or &#169; any Android-enabled mobile device subject to the Android Market Terms of Service and Policies (the “Usage Rules”).
+        This license does not allow you to copy, disassemble, attempt to derive the source code of, modify, create derivative works of, rent, lease, lend, sell, redistribute or sublicense the Application
+        or any Third-Party Content (either in whole or in part).  All Updates will be governed by the version of these Terms published by Company as of the date you install such Update.
+        Any rights not expressly granted herein are reserved.
+        \n\n<b>User Conduct and Compliance with Laws :</b>\n
+        You agree that the Application merely provides a software service that enables you to access music and related historical and musicological information, including biographies of composers.
+        \n\n<b>Termination :</b>\n
+        These Terms are effective until terminated by you or Company.  Your rights under these Terms will terminate automatically without notice from Company if you fail to comply with any terms of this license.
+        Upon termination of these Terms you shall cease all use of the Application, and delete all copies, full or partial, of the Application.\n
+    </string>
+    <string name="please_choose_subscription">Please choose a subscription plan</string>
+    <string name="weekly">Weekly</string>
+    <string name="contniou_with">Continue with</string>
+    <string name="free_trial">7 days free trial</string>
+    <string name="buy_subs_now">Subscribe now</string>
+    <string name="record">Record</string>
+
+
+</resources>

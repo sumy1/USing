@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/black">
+
+    <include layout="@layout/toolbar_select_type"/>
+
+    <com.flyco.tablayout.SegmentTabLayout
+        android:id="@+id/segment_tab_layout"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/margin_8dp"
+        android:layout_height="@dimen/margin_45dp"
+        android:layout_gravity="center_horizontal"
+        app:tl_textSelectColor="@color/black_semi_transparent"
+        app:tl_textUnselectColor="@color/white"
+        app:tl_textsize="@dimen/text_size_large"
+        app:tl_bar_color="@android:color/transparent"
+        app:tl_indicator_corner_radius="0dp"
+        app:tl_indicator_color="@color/theme_color"
+        app:tl_textBold="SELECT"/>
+
+    <com.usingstudioo.Utils.CustomViewPager
+        android:id="@+id/page_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>

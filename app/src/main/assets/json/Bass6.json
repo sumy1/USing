@@ -1,0 +1,537 @@
+{
+    "tempo": "80",
+    "ppqn": "480",
+    "notes": [
+        {
+            "start_time": 0,
+            "note_name": " C3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 2250,
+            "note_name": "C3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3000,
+            "note_name": "C3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3281,
+            "note_name": "C3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5206,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5250,
+            "note_name": "B3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5625,
+            "note_name": "B3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5625,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6000,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6000,
+            "note_name": "B3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6375,
+            "note_name": "B3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6375,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6750,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6750,
+            "note_name": "B3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7125,
+            "note_name": "B3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7125,
+            "note_name": "A3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7500,
+            "note_name": "A3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7500,
+            "note_name": "G3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7875,
+            "note_name": "G3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7875,
+            "note_name": "F3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8250,
+            "note_name": "F3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8250,
+            "note_name": "E3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8625,
+            "note_name": "E3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8625,
+            "note_name": "D3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 9000,
+            "note_name": "D3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 9000,
+            "note_name": "C3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 9750,
+            "note_name": "C3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 10500,
+            "note_name": "C#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 10781,
+            "note_name": "C#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 11250,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 12706,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 12750,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 13125,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 13125,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 13500,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 13500,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 13875,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 13875,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 14250,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 14250,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 14625,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 14625,
+            "note_name": "A#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15000,
+            "note_name": "A#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15000,
+            "note_name": "G#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15375,
+            "note_name": "G#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15375,
+            "note_name": "F#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 15750,
+            "note_name": "F#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 15750,
+            "note_name": "F3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 16125,
+            "note_name": "F3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 16125,
+            "note_name": "D#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 16500,
+            "note_name": "D#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 16500,
+            "note_name": "C#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 17250,
+            "note_name": "C#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 18000,
+            "note_name": "D3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 18281,
+            "note_name": "D3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 18750,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 20206,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 20250,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 20625,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 20625,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 21000,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 21000,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 21375,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 21375,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 21750,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 21750,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 22125,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 22125,
+            "note_name": "B3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 22500,
+            "note_name": "B3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 22500,
+            "note_name": "A3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 22875,
+            "note_name": "A3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 22875,
+            "note_name": "G3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 23250,
+            "note_name": "G3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 23250,
+            "note_name": "F#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 23625,
+            "note_name": "F#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 23625,
+            "note_name": "E3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 24000,
+            "note_name": "E3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 24000,
+            "note_name": "D3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 24750,
+            "note_name": "D3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 25500,
+            "note_name": "D#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 25781,
+            "note_name": "D#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 26250,
+            "note_name": "D#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 27706,
+            "note_name": "D#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 27750,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 28125,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 28125,
+            "note_name": "D#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 28500,
+            "note_name": "D#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 28500,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 28875,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 28875,
+            "note_name": "D#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 29250,
+            "note_name": "D#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 29250,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 29625,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 29625,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 30000,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 30000,
+            "note_name": "A#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 30375,
+            "note_name": "A#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 30375,
+            "note_name": "G#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 30750,
+            "note_name": "G#3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 30750,
+            "note_name": "G3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 31125,
+            "note_name": "G3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 31125,
+            "note_name": "F3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 31500,
+            "note_name": "F3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 31500,
+            "note_name": "D#3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 32250,
+            "note_name": "D#3",
+            "note_status": "n"
+        }
+    ],
+    "status": "1"
+}

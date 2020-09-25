@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="colorPrimary">#24386D</color>
+    <color name="colorPrimaryDark">#24386D</color>-->
+    <color name="colorPrimary">#DFD176</color>
+    <color name="colorPrimaryDark">#DFD176</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="theme_color">#DFD176</color>
+    <color name="theme_transparent">#26DFD176</color>
+    <color name="grey">#BBBBCB</color>
+    <color name="blue">#007AFF</color>
+    <color name="light_blue">#82b1ff</color>
+    <color name="faint_blue">#a6b5d4</color>
+    <color name="orange_red">#EE534F</color>
+    <color name="red_pink">#EE6D74</color>
+    <color name="dim_red">#703320</color>
+    <color name="dash_theme_color">#F4F4F4</color>
+    <color name="ads_bg_color">#CBCBCB</color>
+
+    <color name="gradient_start">#224a7e</color>
+    <color name="gradient_center">#187eaf</color>
+    <color name="gradient_end">#12aadb</color>
+
+    <color name="image_btn_bg_transparent">#B9C9CDD9</color>
+    <color name="button_bg">#A4183AEC</color>
+    <color name="section_bg">#26495FCF</color>
+
+    <color name="window_background">#F2F2F2</color>
+    <!--<color name="off_white">#EEEEEE</color>-->
+    <color name="off_white">#f4f4f4</color>
+    <color name="black">#06070f</color>
+    <color name="dim_black">#4C4C4C</color>
+    <color name="dim_grey">#696969</color>
+    <color name="light_grey">#EFEFEF</color>
+    <color name="dark_grey">#A9A9A9</color>
+    <color name="black_semi_transparent">#B2000000</color>
+    <color name="black_translucent">#CC000000</color>
+    <color name="shimmer_background">#dddddd</color>
+    <color name="background">#E5E5E5</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#FFFFFF</color>
+    <color name="semi_white">#A4A4B4</color>
+    <color name="white_pressed">#F1F1F1</color>
+    <color name="dim_white">#D3D3D3</color>
+    <color name="lite_white">#EBECEE</color>
+    <color name="pink">#EF999A</color>
+    <color name="pink_pressed">#EC407A</color>
+    <color name="blue_semi_transparent">#800052D4</color>
+    <color name="blue_semi_transparent_pressed">#80738FFE</color>
+    <color name="colorTransparent">#3A212121</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="divider_color">#309E9EA0</color>
+    <color name="progress_secondary">#d7d7d7</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="greenLime">#7CFC00</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FFA500</color>
+    <color name="yellow">#D9983C</color>
+
+    <color name="dash_background">#E7E7E7</color>
+    <color name="date_background">#FCF9F9</color>
+
+</resources>

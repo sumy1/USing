@@ -1,0 +1,97 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+
+apply plugin: 'kotlin-android-extensions'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.usingstudioo"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 6
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation 'androidx.core:core-ktx:1.1.0'
+    implementation 'androidx.appcompat:appcompat:1.0.1'
+    implementation 'com.google.android.material:material:1.1.0-alpha09'
+
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test:runner:1.2.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'com.skyfishjy.ripplebackground:library:1.0.1'
+
+    /**
+     * Custom Type API Request Library
+     */
+    implementation 'com.squareup.okhttp:okhttp-urlconnection:2.0.0'
+    implementation 'com.squareup.retrofit2:retrofit:2.0.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.0.2'
+    implementation 'com.google.code.gson:gson:2.8.5'
+    implementation 'com.squareup.okhttp3:okhttp:3.2.0'
+    implementation 'com.squareup.okhttp3:logging-interceptor:3.2.0'
+
+    /**
+     * Custom Type Circle Image Library
+     */
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    /**
+     * Custom Type Progress Loader Library
+     */
+    implementation project(':AnimatedLoadingIndicator')
+
+    /**
+     * Custom Type OTP View Library
+     */
+    implementation 'com.github.mukeshsolanki:android-otpview-pinview:2.0.1'
+    /**
+     * Custom Youtube Player View Library
+     */
+    implementation 'com.pierfrancescosoffritti.androidyoutubeplayer:core:10.0.5'
+
+    /**
+     * Custom Type Image Caching Library
+     */
+    implementation 'com.squareup.picasso:picasso:2.5.2'
+    implementation 'jp.wasabeef:picasso-transformations:2.2.1'
+
+    implementation 'com.github.Jay-Goo:WaveLineView:v1.0.4'
+    /**
+     * Custom Type Tab Layout Library
+     */
+    implementation 'com.flyco.tablayout:FlycoTabLayout_Lib:2.1.2@aar'
+
+    implementation 'com.mikhaellopez:circularprogressbar:3.0.3'
+
+    implementation 'com.chibde:audiovisualizer:2.2.0'
+    implementation 'com.gauravk.audiovisualizer:audiovisualizer:0.9.2'
+    implementation 'com.android.billingclient:billing:1.0'
+
+}

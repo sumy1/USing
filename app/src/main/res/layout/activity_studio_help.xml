@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <include layout="@layout/toolbar_signup_screen"/>
+
+    <com.usingstudioo.View.NBTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="@dimen/margin_10dp"
+        android:text="@string/help_txt"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_size_xxlarge"/>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_height="@dimen/margin_15dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:background="@color/theme_color"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <com.usingstudioo.View.NLTextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_20dp"
+                android:layout_marginEnd="@dimen/margin_20dp"
+                android:layout_gravity="center"
+                android:text="@string/help_support"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_normal"/>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_studio"
+                android:layout_width="250dp"
+                android:layout_height="@dimen/margin_40dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="@dimen/margin_20dp"
+                app:cardBackgroundColor="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal"
+                    android:background="?android:attr/selectableItemBackground"
+                    android:gravity="center">
+
+                    <com.usingstudioo.View.NBTextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:textColor="@color/black_semi_transparent"
+                        android:text="@string/contact_support"
+                        android:textSize="@dimen/text_size_xlarge"
+                        android:textAllCaps="true"/>
+                </LinearLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+            <!--<com.usingstudio.View.NBButton
+                android:id="@+id/card_studio"
+                android:layout_width="250dp"
+                android:layout_height="@dimen/margin_40dp"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/black_semi_transparent"
+                android:text="@string/contact_support"
+                android:textSize="@dimen/text_size_xlarge"
+                android:textAllCaps="true"
+                android:background="@drawable/canvas_white_round_btn_bg"
+                android:foreground="?attr/selectableItemBackground"/>-->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

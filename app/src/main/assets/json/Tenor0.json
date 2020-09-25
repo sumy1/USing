@@ -1,0 +1,137 @@
+{
+    "tempo": "80",
+    "ppqn": "480",
+    "notes": [
+        {
+            "start_time": 0,
+            "note_name": " B3",
+            "note_status": "y"
+        },
+        {
+            "start_time": 750,
+            "note_name": "B3",
+            "note_status": "n"
+        },
+        {
+            "start_time": 750,
+            "note_name": "C4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 1500,
+            "note_name": "C4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 1500,
+            "note_name": "C#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 2250,
+            "note_name": "C#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 2250,
+            "note_name": "D4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3000,
+            "note_name": "D4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3000,
+            "note_name": "D#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "D#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 3750,
+            "note_name": "E4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 4500,
+            "note_name": "E4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 4500,
+            "note_name": "F4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 5250,
+            "note_name": "F4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 5250,
+            "note_name": "F#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6000,
+            "note_name": "F#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6000,
+            "note_name": "G4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 6750,
+            "note_name": "G4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 6750,
+            "note_name": "G#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 7500,
+            "note_name": "G#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 7500,
+            "note_name": "A4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 8250,
+            "note_name": "A4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 8250,
+            "note_name": "A#4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 9000,
+            "note_name": "A#4",
+            "note_status": "n"
+        },
+        {
+            "start_time": 9000,
+            "note_name": "B4",
+            "note_status": "y"
+        },
+        {
+            "start_time": 11250,
+            "note_name": "B4",
+            "note_status": "n"
+        }
+    ],
+    "status": "1"
+}

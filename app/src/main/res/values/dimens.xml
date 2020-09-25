@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="pager_margin">5dp</dimen>
+    <dimen name="rippleRadius">20dp</dimen>
+    <dimen name="rippleStrokeWidth">0.7dp</dimen>
+
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="small_fab_margin">22dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="bottom_sheet_corner_radius">10dp</dimen>
+    <dimen name="bottom_sheet_top_padding">25dp</dimen>
+    <dimen name="negative_margin">-10dp</dimen>
+
+    <dimen name="img_btn_height">45dp</dimen>
+    <dimen name="btn_height">45dp</dimen>
+
+    <dimen name="profile_img_size">80dp</dimen>
+    <dimen name="logo_img_height">80dp</dimen>
+    <dimen name="logo_img_width">100dp</dimen>
+    <dimen name="social_icon_size">55dp</dimen>
+    <dimen name="social_size">30dp</dimen>
+
+    <dimen name="visibility_icon">35dp</dimen>
+
+    <dimen name="ongo_btn_width">80dp</dimen>
+    <dimen name="ongo_btn_height">30dp</dimen>
+    <dimen name="ongo_padding">15dp</dimen>
+
+    <dimen name="row_banner_width">90dp</dimen>
+    <dimen name="row_banner_height">90dp</dimen>
+    <dimen name="time_icon_size">15dp</dimen>
+    <dimen name="edit_btn_size">30dp</dimen>
+    <dimen name="edit_icon_width">16dp</dimen>
+    <dimen name="edit_icon_height">16dp</dimen>
+
+    <dimen name="bank_banner_size">200dp</dimen>
+    <dimen name="event_banner_size">150dp</dimen>
+
+    <dimen name="timing_divider_height">35dp</dimen>
+    <dimen name="amenity_row_size">65dp</dimen>
+
+    <dimen name="nav_curve">75dp</dimen>
+    <dimen name="nav_header_height">185dp</dimen>
+    <dimen name="nav_header_profile">60dp</dimen>
+
+    <dimen name="fab_size">45dp</dimen>
+    <dimen name="button_size">300dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+
+    <dimen name="title_size">20sp</dimen>
+    <dimen name="desc_size">20sp</dimen>
+    <dimen name="rating_text">12sp</dimen>
+
+    <dimen name="rating_width">80dp</dimen>
+    <dimen name="rating_height">15dp</dimen>
+
+    <dimen name="search_bar_height">40dp</dimen>
+
+    <dimen name="menu_btn_height">25dp</dimen>
+    <dimen name="menu_btn_width">25dp</dimen>
+
+    <dimen name="toolbar_height">45dp</dimen>
+    <dimen name="toolbar_margin_top">25dp</dimen>
+    <dimen name="margin_start_vary_100">100dp</dimen>
+    <dimen name="margin_start_vary_60">60dp</dimen>
+    <dimen name="margin_start_vary_65">65dp</dimen>
+    <dimen name="margin_start_vary_2">2dp</dimen>
+
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="toolbar_content_inset_start">0dp</dimen>
+    <dimen name="zero">0dp</dimen>
+    <dimen name="padding_5dp">5dp</dimen>
+    <dimen name="padding_8dp">8dp</dimen>
+    <dimen name="padding_10dp">10dp</dimen>
+    <dimen name="padding_15dp">15dp</dimen>
+
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="margin_8dp">8dp</dimen>
+    <dimen name="margin_10dp">10dp</dimen>
+    <dimen name="margin_15dp">15dp</dimen>
+    <dimen name="margin_18dp">18dp</dimen>
+    <dimen name="margin_20dp">20dp</dimen>
+    <dimen name="margin_25dp">25dp</dimen>
+    <dimen name="margin_30dp">30dp</dimen>
+    <dimen name="margin_35dp">35dp</dimen>
+    <dimen name="margin_40dp">40dp</dimen>
+    <dimen name="margin_45dp">45dp</dimen>
+    <dimen name="margin_3dp">3dp</dimen>
+    <dimen name="margin_1dp">1dp</dimen>
+
+    <dimen name="margin_start_vary_0">0dp</dimen>
+    <dimen name="margin_start_vary_5">5dp</dimen>
+    <dimen name="margin_start_vary_8">8dp</dimen>
+    <dimen name="margin_start_vary_10">10dp</dimen>
+    <dimen name="margin_start_vary_15">5dp</dimen>
+    <dimen name="margin_start_vary_20">20dp</dimen>
+    <dimen name="margin_start_vary_25">25dp</dimen>
+    <dimen name="margin_start_vary_35">35dp</dimen>
+    <dimen name="margin_start_vary_30">35dp</dimen>
+    <dimen name="margin_start_vary_80">80dp</dimen>
+
+    <dimen name="text_size_mini">8sp</dimen>
+    <dimen name="text_size_micro">11sp</dimen>
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_ideal">13sp</dimen>
+    <dimen name="text_size_normal">14sp</dimen>
+    <dimen name="text_size_regular">15sp</dimen>
+    <dimen name="text_size_large">16sp</dimen>
+    <dimen name="text_size_xlarge">18sp</dimen>
+    <dimen name="text_size_xxlarge">20sp</dimen>
+    <dimen name="text_size_xxxlarge">24sp</dimen>
+
+    <dimen name="rate_review_layout_margin">15dp</dimen>
+    <dimen name="rate_review_margin_end">15dp</dimen>
+
+    <dimen name="progress_width">120dp</dimen>
+    <dimen name="password_btn_width">30dp</dimen>
+
+    <dimen name="standard_55">55dp</dimen>
+    <dimen name="standard_105">105dp</dimen>
+    <dimen name="standard_155">155dp</dimen>
+    <dimen name="booking_detail_banner_height">100dp</dimen>
+    <dimen name="viewpager_margin">-228dp</dimen>
+    <dimen name="viewpager_margin_fix">114dp</dimen>
+    <dimen name="gallery_banner_height">160dp</dimen>
+    <dimen name="gallery_vp_height">100dp</dimen>
+    <dimen name="gallery_vp_image_width">100dp</dimen>
+
+    <dimen name="event_column_width">120dp</dimen>
+
+    <dimen name="batch_slot_avail_width">145dp</dimen>
+
+    <dimen name="fab_menu_margin_top">60dp</dimen>
+    <dimen name="fab_menu_margin_end">10dp</dimen>
+    <dimen name="profile_ib_margin_top">1dp</dimen>
+    <dimen name="profile_ib_margin_top_vary_5">1dp</dimen>
+    <dimen name="step_view_width">250dp</dimen>
+    <dimen name="margin_vary_minus_20">-20dp</dimen>
+
+    <dimen name="text_size_19sp">19sp</dimen>
+    <dimen name="publication_margin_top">0dp</dimen>
+</resources>

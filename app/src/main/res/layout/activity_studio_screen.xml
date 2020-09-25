@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <include layout="@layout/toolbar_using_studio"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.gauravk.audiovisualizer.visualizer.BarVisualizer
+                    android:id="@+id/blast"
+                    android:layout_width="match_parent"
+                    android:layout_height="220dp"
+                    custom:avDensity="0.5"
+                    custom:avType="fill"
+                    custom:avColor="@color/dim_black"
+                    custom:avSpeed="normal"/>
+
+                <RelativeLayout
+                    android:layout_width="160dp"
+                    android:layout_height="160dp"
+                    android:background="@drawable/canvas_circle_line_bg"
+                    android:layout_marginTop="@dimen/margin_start_vary_60"
+                    android:gravity="center"
+                    android:layout_centerHorizontal="true">
+
+                    <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                        android:id="@+id/circularProgressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="@dimen/margin_3dp"
+                        app:cpb_background_progressbar_color="@android:color/transparent"
+                        app:cpb_background_progressbar_width="@dimen/margin_15dp"
+                        app:cpb_progress_direction="to_right"
+                        app:cpb_round_border="true"
+                        app:cpb_progressbar_width="@dimen/margin_25dp"
+                        app:cpb_progressbar_color_start="@color/dim_black"
+                        app:cpb_progressbar_color_end="@color/theme_color"
+                        app:cpb_progress_max="100"
+                        app:cpb_start_angle="90"/>
+
+                    <RelativeLayout
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/canvas_circle_line_bg"
+                        android:layout_centerInParent="true">
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_gravity="center"
+                            android:src="@drawable/playback"/>
+
+                        <com.usingstudioo.View.NBTextView
+                            android:id="@+id/tv_timer"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="00:00"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text_size_xxlarge"
+                            android:gravity="center"
+                            android:layout_centerVertical="true"
+                            android:layout_centerHorizontal="true"/>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10dp"
+                android:orientation="vertical">
+
+                <com.usingstudioo.View.NBTextView
+                    android:id="@+id/tv_scale"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Chromatic Scale"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_large" />
+
+                <com.usingstudioo.View.NBTextView
+                    android:id="@+id/tv_range"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Bass"
+                    android:textColor="@color/theme_color"
+                    android:textSize="@dimen/text_size_large" />
+
+                <com.usingstudioo.View.NLTextView
+                    android:id="@+id/tv_chord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="D##"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_large" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.usingstudioo.View.NLTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/margin_25dp"
+                        android:text="@string/slow"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_regular" />
+
+                    <com.usingstudioo.View.NLTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="@dimen/margin_25dp"
+                        android:text="@string/fast"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/text_size_regular"
+                        tools:ignore="RelativeOverlap" />
+
+                </RelativeLayout>
+
+                <androidx.appcompat.widget.AppCompatSeekBar
+                    android:id="@+id/audio_seek"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_20dp"
+                    android:layout_marginEnd="@dimen/margin_20dp"
+                    android:layout_gravity="center"
+                    android:max="400"
+                    android:progress="100"
+                    android:theme="@style/CustomSeekBar"
+                    android:thumb="@drawable/ic_thumb" />
+
+                <com.usingstudioo.View.NLTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/speed"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_size_regular"
+                    android:textAllCaps="true"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/margin_15dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:id="@+id/btn_reset"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:background="@drawable/canvas_shadow_btn_bg">
+
+                        <ImageView
+                            android:id="@+id/iv_start"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/forward"
+                            android:scaleType="fitCenter"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/app_desc"/>
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/btn_stop"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_alignParentEnd="true"
+                        android:background="@drawable/canvas_shadow_btn_bg">
+
+                        <ImageView
+                            android:id="@+id/iv_stop"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/stop"
+                            android:scaleType="fitCenter"
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:contentDescription="@string/app_desc"/>
+                    </RelativeLayout>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/btn_play"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:layout_marginTop="-20dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/canvas_shadow_btn_bg">
+
+                    <ImageView
+                        android:id="@+id/iv_play"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/play"
+                        android:scaleType="fitCenter"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:contentDescription="@string/app_desc"/>
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.usingstudioo.View.NBTextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/text"
+    style="@style/spinnerItemStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_5dp"
+    android:gravity="start"
+    android:maxLines="1"
+    android:text="dskjd"
+    android:textSize="@dimen/text_size_ideal"
+    android:textColor="@color/theme_color" />
